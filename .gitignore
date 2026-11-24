@@ -1,0 +1,38 @@
+# Large Data Files and Multi-GB Databases (Do not commit to Git)
+vitaldb_multimodal_data/
+Hb_PPG_Dataset/
+feature_cache/
+*.mat
+*.pkl
+*.parquet
+*.h5
+*.feather
+
+# Model Artifacts and Cache
+bp_models/
+catboost_info/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# PDF and Reference Papers
+papers/
+archive_legacy_experiments/
+*.pdf
+*.log
+*.aux
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.tex
+
+# OS and Editor Specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
